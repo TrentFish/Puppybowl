@@ -4,10 +4,17 @@
 
 body{
     background-color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.selected{
+    border: 1px solid purple;
 }
 
 div{
     border: 1px solid black;
+    padding: 2rem;
+    margin: 1rem;
 }
 
 .puppy{
