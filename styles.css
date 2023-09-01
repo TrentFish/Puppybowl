@@ -4,7 +4,13 @@
 
 body{
     background-color: cyan;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
 }
 
 .selected{
@@ -34,14 +40,21 @@ div{
 
 .details div{
     height: 200vh;
+    width: 90vw;
     background-size: cover;
     color: yellow;
     font-size: 2rem;
     text-shadow: 2px 2px black;
+    margin: 0;
+    padding: 0;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     .puppy{
         flex-direction: column;
+    }
+    .details div{
+        height: 100%;
+        width: 100%;
     }
 }
