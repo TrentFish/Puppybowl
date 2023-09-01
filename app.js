@@ -28,10 +28,11 @@ function render(){
     let detailsHTML = "No pup selected!";
     if(player){
         detailsHTML = `
-        <h2>Name: ${player.name}</h2>
-        <h3>Breed: ${player.breed}</h3>
-        <p>Status: ${player.status}</P>
-        <img src="${player.imageUrl}" alt="Player Image">
+        <div style="background-image:url(${player.imageUrl})">
+            <h2>Name: ${player.name}</h2>
+            <h3>Breed: ${player.breed}</h3>
+            <p>Status: ${player.status}</P>
+        </div>
         `;
     }
     details.innerHTML = detailsHTML;

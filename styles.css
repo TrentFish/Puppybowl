@@ -27,7 +27,21 @@ div{
     align-items: center;
 }
 
-img{
-    height: 500px;
-    width: 500px;
+.details{
+    border: 0;
+    text-align: center;
+}
+
+.details div{
+    height: 200vh;
+    background-size: cover;
+    color: yellow;
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+}
+
+@media (max-width: 450px) {
+    .puppy{
+        flex-direction: column;
+    }
 }
