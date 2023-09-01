@@ -26,3 +26,8 @@ div{
     justify-content: space-around;
     align-items: center;
 }
+
+img{
+    height: 500px;
+    width: 500px;
+}
