@@ -33,6 +33,10 @@ div{
     align-items: center;
 }
 
+.puppy div{
+    background-color: chartreuse;
+}
+
 .details{
     border: 0;
     text-align: center;
